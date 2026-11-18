@@ -1,0 +1,9 @@
+format,mime,extension,lossy,lossless,alpha,animation,hdr,typical_use,important_note
+JPEG,image/jpeg,jpg|jpeg,yes,no,no,no,limited,photographs,No alpha channel
+PNG,image/png,png,no,yes,yes,no,limited,logos|screenshots|graphics,Large for photographic content
+WebP,image/webp,webp,yes,yes,yes,yes,limited,web delivery,Runtime encode support should be tested
+AVIF,image/avif,avif,yes,yes,yes,yes,yes,high compression web delivery,Encoding can be computationally expensive
+GIF,image/gif,gif,no,yes,yes,yes,no,simple animation,Palette and alpha are limited
+SVG,image/svg+xml,svg,no,yes,yes,yes,no,vector graphics,Sanitize untrusted SVG content
+HEIC,image/heic,heic,yes,yes,yes,yes,yes,camera photos,Browser support and MIME handling vary
+TIFF,image/tiff,tif|tiff,yes,yes,yes,yes,yes,print|scanning|archival,Browser decoding support is limited
