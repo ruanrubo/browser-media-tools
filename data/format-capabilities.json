@@ -1,0 +1,10 @@
+[
+  {"format":"JPEG","mime":"image/jpeg","extensions":["jpg","jpeg"],"lossy":true,"lossless":false,"alpha":false,"animation":false,"hdr":"limited","uses":["photographs"]},
+  {"format":"PNG","mime":"image/png","extensions":["png"],"lossy":false,"lossless":true,"alpha":true,"animation":false,"hdr":"limited","uses":["logos","screenshots","graphics"]},
+  {"format":"WebP","mime":"image/webp","extensions":["webp"],"lossy":true,"lossless":true,"alpha":true,"animation":true,"hdr":"limited","uses":["web delivery"]},
+  {"format":"AVIF","mime":"image/avif","extensions":["avif"],"lossy":true,"lossless":true,"alpha":true,"animation":true,"hdr":true,"uses":["high compression web delivery"]},
+  {"format":"GIF","mime":"image/gif","extensions":["gif"],"lossy":false,"lossless":true,"alpha":"limited","animation":true,"hdr":false,"uses":["simple animation"]},
+  {"format":"SVG","mime":"image/svg+xml","extensions":["svg"],"lossy":false,"lossless":true,"alpha":true,"animation":true,"hdr":false,"uses":["vector graphics"]},
+  {"format":"HEIC","mime":"image/heic","extensions":["heic"],"lossy":true,"lossless":true,"alpha":true,"animation":true,"hdr":true,"uses":["camera photos"]},
+  {"format":"TIFF","mime":"image/tiff","extensions":["tif","tiff"],"lossy":true,"lossless":true,"alpha":true,"animation":true,"hdr":true,"uses":["print","scanning","archival"]}
+]
