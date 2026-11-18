@@ -1,0 +1,9 @@
+{
+  "principle": "Test capabilities in the current runtime; do not infer permanent support from a browser name alone.",
+  "tests": [
+    {"capability":"decode","formats":["image/webp","image/avif"],"method":"Create a small known-valid Blob, call createImageBitmap, and handle rejection."},
+    {"capability":"encode","formats":["image/jpeg","image/png","image/webp"],"method":"Call canvas.toBlob with the target MIME and confirm the returned Blob.type."},
+    {"capability":"file-system-export","formats":["any"],"method":"Feature-test window.showSaveFilePicker and retain download-attribute fallback."},
+    {"capability":"video-decode","formats":["video/mp4","video/webm"],"method":"Use HTMLMediaElement.canPlayType as a hint and confirm by loading user-selected media."}
+  ]
+}
