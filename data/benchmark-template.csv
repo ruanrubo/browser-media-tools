@@ -1,0 +1,1 @@
+run_id,date_utc,fixture_name,fixture_sha256,fixture_license,content_class,input_format,input_width,input_height,input_bytes,output_format,quality,encoder,encoder_version,operating_system,browser,browser_version,elapsed_ms,output_bytes,ssim,psnr,notes
